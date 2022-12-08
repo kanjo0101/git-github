@@ -4,3 +4,7 @@ github is an online store for git repositories. Git repositories are "folders" i
 A local repository is the folder stored in your company. A remote repository is the repository stored in the github.
 I can create repository in two ways: in github and locally.
 Ways of linking local repository and remote repository. This differs from cloning the remote repository. This refers to where I created a repository in github, created a local repository and linking them.
+SO HOW?
+A. "git remote add "[NAME OF THE LOCAL : CONVENTIONALLY "ORIGIN"] [REMOTE REPO'S LINK]
+b. "git remote -v" to check the status of the linking
+c. "git remote remove [NAME OF THE LOCAL "ORIGIN"] to remove the linking.
